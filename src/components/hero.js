@@ -6,7 +6,7 @@ import cardThree from '../assets/images/offersCard-3.jpg'
 export const Hero = () =>
 {
     return (
-        <section className='flex flex-col mb-[70px]'>
+        <section id={'offers'} className='flex flex-col mb-[70px]'>
             <h2 className='section_title'>Спецпредложения</h2>
             <ul className='flex gap-[24px]'>
                 <div className='w-[573px] gap-y-[24px]   flex justify-between flex-col'>

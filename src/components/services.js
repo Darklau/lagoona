@@ -19,7 +19,7 @@ export const Services = () => {
     },
   ];
 
-  return (<section className='mb-[70px]' title='services'>
+  return (<section className='mb-[70px]' id='services'>
       <h3 className='section_title'>Услуги</h3>
       <ul className='grid-cols-2 grid gap-[24px]'>
           {servicesCards.map((card, index) => (

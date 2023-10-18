@@ -44,7 +44,7 @@ export const Advantages = () => {
         }
     ]
 
-    return (<section title={'advantages'}>
+    return (<section className='mb-[70px]' id={'advantages'}>
         <h3 className='section_title'>Преимущества</h3>
         <ul className='grid grid-cols-4 gap-[22px]'>{advantagesCards.map((advantage, index) => (
             <li className='card flex flex-col gap-y-[10px] pt-[40px] pb-[32px] col-span-1'>
